@@ -1,0 +1,129 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    title IPFS - a better web
+
+    link(rel='stylesheet', type='text/css', href='build/build.css')
+
+  style.
+    .orion {
+      background-image: url('images/orion.jpg')
+    }
+
+    .white {
+      background-color: white;
+      color: black;
+    }
+
+    .white h2 {
+      color: black;
+    }
+
+  body
+
+    article.deck
+
+      section
+        h1 IPFS
+        h2 Building a peer to peer Web
+        h3 John Kane
+        h4 <a href="https://twitter.com/john_kane">@john_kane</a> || <a href="https://www.kanej.me">https://www.kanej.me</a>
+
+      section
+        img(src="images/kilt_wedding.jpg", width="400px")
+        h2 John Kane
+        h3 Javascript and .Net Contractor <br>(I'm ashamed too)
+
+      section(data-bespoke-backdrop='orion')
+        img(src="images/ipfs_logo.png")
+
+      section(data-bespoke-backdrop='white')
+        h2 Wait, isn't that the web
+
+      section(data-bespoke-backdrop='white')
+        img(src="images/successes_ranked.png")
+
+      section
+        h2 The Web is broken
+
+      // Blocked Pipes
+
+      section
+        h1 Blocked pipes
+
+      section
+        h2 The network stack
+
+      section
+        h2 World of TCP
+      
+      section
+        h2 Actual World 
+
+      // Dead Links
+
+      section
+        h1 Dead links
+
+      section
+        blockquote 
+          | What makes a cool URI? <br>
+          | A cool URI is one which does not change. <br>
+          | What sorts of URI change? <br>
+          | <strong>URIs don't change: people change them.</strong>
+        h3 Tim Berners-Lee
+
+      section
+        h2 XXXXXXXXXleftpad?
+        pre
+          code.language-javascript.
+            module.exports = leftpad;
+
+            function leftpad (str, len, ch) {
+              str = String(str);
+
+              var i = -1;
+
+              if (!ch && ch !== 0) ch = ' ';
+
+              len = len - str.length;
+
+              while (++i < len) {
+                str = ch + str;
+              }
+
+              return str;
+            }
+
+      section
+        h2 Vote Leave on 24th June 2016
+
+      section
+        h2 Vote Leave on 22nd June 2016
+
+      // Censorship
+
+      section
+        h1 Censorship
+
+      section
+        h2 DNS, not quite distributed enough
+
+      // Describe IPFS
+
+      section
+        h2 What is IPFS?
+        ul.build.build-items
+          li A network protocol
+          li A peer to peer distribution method
+          li A persistent, immutable store
+          li da bomb
+
+      section
+        h1 Questions
+        h4 <a href="https://twitter.com/john_kane">@john_kane</a> || <a href="https://www.kanej.me">https://www.kanej.me</a>
+        h4 No link to this talk? That is weird.
+        
+    script(src='build/build.js')
