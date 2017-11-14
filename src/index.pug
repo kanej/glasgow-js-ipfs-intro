@@ -12,6 +12,10 @@ html
       background-image: url('images/orion.jpg')
     }
 
+    .cables {
+      background-image: url('images/cables.jpg')
+    }
+
     .white {
       background-color: white;
       color: black;
@@ -53,14 +57,20 @@ html
       section
         h1 Blocked pipes
 
-      section
+      section(data-bespoke-backdrop='cables')
         h2 The network stack
+
+      section(data-bespoke-backdrop='cables')
+        h2 The network stack
+        img(src="images/IP_stack_connections.png", width="600px")
 
       section
         h2 World of TCP
+        img(src="images/random_graph.jpg", width="600px")
       
       section
-        h2 Actual World 
+        h2 Actual World
+        img(src="images/twitter_graph.jpg", width="600px")
 
       // Dead Links
 
@@ -98,10 +108,14 @@ html
             }
 
       section
-        h2 Vote Leave on 24th June 2016
+        h2 Vote Leave Website
+        h2 24th June 2016
+        img(src="images/vote_leave_24th.png", width="600px")
 
       section
-        h2 Vote Leave on 22nd June 2016
+        h2 Vote Leave Website
+        h2 22nd June 2016
+        img(src="images/vote_leave_22nd.png", width="600px")
 
       // Censorship
 
