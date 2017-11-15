@@ -1,17 +1,15 @@
 Talk Outline
 ------------
 
-* Who I am
-* IPFS comes from across the stars, from the dark web, related to technologies like bitcoin, blockchain, bittorrent
-* IPFS is a contect storage and distribution
-* Wait that is the web?
-* IPFS contends that there are problems with the web
+Command Line
+------------
 
-Possible Other Sections
------------------------
-
-* IPLD
-* Demo of website on a local node
-* Demo of updating a live website through antaeus
-* Pubsub
-* ENS
+Show the download page
+Boot a daemon
+Show webui
+Add Hello Glasgow message
+Show content retrieved from the network - QmbwJG5FVfUt2Mp5QWHwbWixyJtHbSxoWTaU9xdm73MRWq
+Add a directory
+Show dag for directory
+Show site served on ipfs
+Fun with DAGs 
